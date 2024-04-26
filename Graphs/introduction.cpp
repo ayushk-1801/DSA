@@ -78,13 +78,13 @@ int main() {
     int u, v;
     cin >> u >> v;
 
-    g.addEdge(u, v, 0);
+    g.addEdge(u, v, 1);
   }
 
   g.printAdjList();
   cout << "BFS: ";
-  g.bfs(0);
+  g.bfs(1);
   cout << "\nDFS: ";
-  g.dfs(0);
+  g.dfs(1);
   return 0;
 }
